@@ -1,0 +1,55 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1755367412921,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xdf48fc17f3004815015d81cd57ee1ab2b501b0bcfe72d03186005d8d8386d13a",
+        "contractName": "Example",
+        "bytecode": "6080604052348015600e575f5ffd5b5060ba80601a5f395ff3fe6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063afd3b91914602a575b5f5ffd5b60306044565b604051603b9190606d565b60405180910390f35b5f5f9054906101000a900460ff1681565b5f8115159050919050565b6067816055565b82525050565b5f602082019050607e5f8301846060565b9291505056fea2646970667358221220bbe8a71cecfbc5d99ef85a28a68c27879decb830cc979da138d294ae2966575364736f6c634300081e0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1755367465004,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xdf48fc17f3004815015d81cd57ee1ab2b501b0bcfe72d03186005d8d8386d13a",
+        "contractName": "Example",
+        "bytecode": "6080604052348015600e575f5ffd5b5060ba80601a5f395ff3fe6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063afd3b91914602a575b5f5ffd5b60306044565b604051603b9190606d565b60405180910390f35b5f5f9054906101000a900460ff1681565b5f8115159050919050565b6067816055565b82525050565b5f602082019050607e5f8301846060565b9291505056fea2646970667358221220bbe8a71cecfbc5d99ef85a28a68c27879decb830cc979da138d294ae2966575364736f6c634300081e0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xdf48fc17f3004815015d81cd57ee1ab2b501b0bcfe72d03186005d8d8386d13a": [
+      {
+        "inputs": [],
+        "name": "myboolean",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
