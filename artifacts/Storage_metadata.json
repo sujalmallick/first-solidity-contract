@@ -7,21 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myuint",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,19 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_myuint",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setUint",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -59,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/uint.sol": "Example"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/uint.sol": {
-			"keccak256": "0xb5b61f82906a969769169f892712f1c167ceb5d76b754a9f0ab70d9c16ecf660",
-			"license": "MIT",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b45efe3092a3fccd85782e19c9ff7ddc0670f5c8e1d75099ce450e1252a5f7e9",
-				"dweb:/ipfs/QmWqNexZnSC3EW3GEqsAJJrrZMJZ13nrizSQU4s63T5z66"
+				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
+				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
 			]
 		}
 	},

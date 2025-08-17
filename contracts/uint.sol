@@ -14,4 +14,9 @@ contract Example{
     function increment()public{
         myuint++;
     }
+    function decrement()public{
+        unchecked{
+            myuint--;
+            }
+    }
 }
